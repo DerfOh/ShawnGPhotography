@@ -750,10 +750,10 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
     var $parent  = getParent($this)
     var isActive = $parent.hasClass('open')
 
-    if (!isActive || (isActive && e.keyCode == 27)) {
+/*    if (!isActive || (isActive && e.keyCode == 27)) {
       if (e.which == 27) $parent.find(toggle).focus()
       return $this.click()
-    }
+    }*/
 
     var $items = $('[role=menu] li:not(.divider):visible a', $parent)
 
