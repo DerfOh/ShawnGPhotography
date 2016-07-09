@@ -16,6 +16,7 @@ export class AppComponent {
 
     private data;
 
+    // Takes values placed in json file that correspond to the images
     constructor(private http:Http) {
        http.get("app/data.json")
             .subscribe((data)=> {
@@ -27,6 +28,7 @@ export class AppComponent {
 
     }
 
+    //takes in a value and compares it to the url to see if there is a value specified there.
     public checkHash(x){
       var album = x;
       var url = window.location.href;
