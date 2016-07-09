@@ -1,14 +1,37 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {DatePipe} from "@angular/common";
+import {HTTP_PROVIDERS, Http} from "@angular/http";
+import {DataTableDirectives} from 'angular2-datatable/datatable';
+import * as _ from 'lodash';
+
 
 @Component({
-  selector: 'album',
-  template: '<h1>Album Name</h1>'
+    selector: 'my-app',
+    templateUrl: 'app/app.component.html',
+    providers: [HTTP_PROVIDERS],
+    directives: [DataTableDirectives],
+    pipes: [DatePipe]
 })
-export class AppComponent { }
+export class AppComponent {
 
+    private data;
 
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/
+    constructor(private http:Http) {
+       http.get("app/data.json")
+            .subscribe((data)=> {
+                setTimeout(()=> {
+                    this.data = data.json();
+                }, 1000);
+            });
+    }
+
+    private sortByWordLength = (a:any) => {
+        return a.productName.length;
+    }
+    
+    // public removeItem(item: any) {
+    //   this.data = _.filter(this.data, (elem)=>elem!=item);
+    //   console.log("Remove: ", item.email);
+    // }
+
+}
