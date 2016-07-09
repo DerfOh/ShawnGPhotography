@@ -6,7 +6,7 @@ import * as _ from 'lodash';
 
 
 @Component({
-    selector: 'my-app',
+    selector: 'album',
     templateUrl: 'app/app.component.html',
     providers: [HTTP_PROVIDERS],
     directives: [DataTableDirectives],
@@ -24,17 +24,14 @@ export class AppComponent {
                     this.data = data.json();
                 }, 1000);
             });
-
-
     }
 
     //takes in a value and compares it to the url to see if there is a value specified there.
     public checkHash(x){
-      var album = x;
       var url = window.location.href;
       var hashValue = url.substring(url.indexOf('#')+1);
 
-      if (album == hashValue){
+      if (x == hashValue){
         return true;
       }
       return false;
