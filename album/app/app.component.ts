@@ -23,5 +23,18 @@ export class AppComponent {
                     this.data = data.json();
                 }, 1000);
             });
+
+
+    }
+
+    public checkHash(x){
+      var album = x;
+      var url = window.location.href;
+      var hashValue = url.substring(url.indexOf('#')+1);
+
+      if (album == hashValue){
+        return true;
+      }
+      return false;
     }
 }
