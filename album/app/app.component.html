@@ -7,42 +7,30 @@
             </h1>
         </div>
 
-        <h2>Rates Table</h2>
+        <h2></h2>
 
         <div class="panel panel-default">
-          
-            <!-- <div class="panel-heading">Rates List</div> -->
+
+          <div class="panel-heading">Album</div>
           <div class="table table-responsive">
             <table class="table panel-heading table-bordered table-striped table-hover" [mfData]="data" #mf="mfDataTable" [mfRowsOnPage]="10">
-                <thead>
+                <!-- <thead>
                   <tr>
-                      <th style="width: 10%"><mfDefaultSorter by="productKey">Key</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="productName">Name</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="productCategory">Category</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="productRating">Rating</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="purposeType">Type</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="interestRate">Rate</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="apr">apr</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="lockPeriod">Lock Period</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="closingCost">Closing Cost</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="monthlyPayment">Monthly Payment</mfDefaultSorter></th>
-                      <th style="width: 20%"><mfDefaultSorter by="monthlyMIPayment">Monthly MI Payment</mfDefaultSorter></th>
+                      <th><mfDefaultSorter by="imageUrl">Image</mfDefaultSorter></th>
+                      <th><mfDefaultSorter by="imageAlbum">Album</mfDefaultSorter></th>
+                      <th><mfDefaultSorter by="imageDescription">description</mfDefaultSorter></th>
                   </tr>
-                </thead>
+                </thead> -->
                   <tbody>
-                    <tr *ngFor="#rt of mf.data">
-                      <td style="width: 10%">{{ rt.productKey }}</td>
-                      <td style="width: 20%">{{ rt.productName }}</td>
-                      <td style="width: 20%">{{ rt.productCategory }}</td>
-                      <td style="width: 20%">{{ rt.productRating }}</td>
-                      <td style="width: 20%">{{ rt.purposeType }}</td>
-                      <td style="width: 20%">{{ rt.interestRate }}</td>
-                      <td style="width: 20%">{{ rt.apr }}</td>
-                      <td style="width: 20%">{{ rt.lockPeriod }}</td>
-                      <td style="width: 20%">{{ rt.closingCost }}</td>
-                      <td style="width: 20%">{{ rt.monthlyPayment }}</td>
-                      <td style="width: 20%">{{ rt.monthlyMIPayment }}</td>
+                    <tr>
+                      <span *ngFor="let img of mf.data"><td *ngIf="img.imageAlbum == 'Album1'"><a href="{{ img.imageUrl }}"><img src="{{ img.imageUrl }}" title="{{ img.imageDescription }}" style="width:304px;height:228px;padding:2px;"> </a></td></span>
                     </tr>
+                    <!-- <tr>
+                      <td *ngFor="#img of mf.data" *ngIf="img.imageAlbum Album1">{{ img.imageAlbum }}</td>
+                    </tr>
+                    <tr>
+                      <td *ngFor="#img of mf.data" *ngIf="img.imageAlbum Album1"><a href="{{ img.imageUrl }}">View Larger</a></td>
+                    </tr> -->
                   </tbody>
                 <tfoot>
                 <tr>
@@ -53,7 +41,7 @@
                 </tfoot>
             </table>
             </div>
-            
+
             <div class="panel-footer">
               <p> </p>
             </div>

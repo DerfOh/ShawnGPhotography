@@ -24,14 +24,4 @@ export class AppComponent {
                 }, 1000);
             });
     }
-
-    private sortByWordLength = (a:any) => {
-        return a.productName.length;
-    }
-    
-    // public removeItem(item: any) {
-    //   this.data = _.filter(this.data, (elem)=>elem!=item);
-    //   console.log("Remove: ", item.email);
-    // }
-
 }
