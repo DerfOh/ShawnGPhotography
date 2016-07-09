@@ -18,7 +18,7 @@ export class AppComponent {
 
     // Takes values placed in json file that correspond to the images
     constructor(private http:Http) {
-       http.get("app/data.json")
+       http.get("data/imageList.json")
             .subscribe((data)=> {
                 setTimeout(()=> {
                     this.data = data.json();
