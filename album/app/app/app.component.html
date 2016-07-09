@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="col-xs-12 col-md-offset-0">
+        <div class="panel panel-default">
+
+          <div class="pannel pannel-body">
+            <h2 class="pannel pannel-head">Album</h2>
+            <div class="table table-responsive" >
+              <table class="table table-bordered table-striped table-hover" [mfData]="data" #mf="mfDataTable" [mfRowsOnPage]="15">
+                    <tbody>
+                      <tr>
+                        <span *ngFor="let img of mf.data">
+                          <td *ngIf=checkHash(img.imageAlbum)><!-- This checks the hash of the url of the page, if it matches the name of the album specified in the json then it shows the image -->
+                            <a href="{{ img.imageUrl }}">
+                              <img src="{{ img.imageUrl }}" title="{{ img.imageDescription }}" style="max-width:100%;max-height:100%;padding:2px;">
+                            </a>
+                          </td>
+                        </span>
+                      </tr>
+                    </tbody>
+                  <tfoot>
+                  <tr>
+                      <td colspan="1">
+                          <mfBootstrapPaginator [rowsOnPageSet]="[1,15,25]"  style="align:right;"></mfBootstrapPaginator>
+                      </td>
+                  </tr>
+                  </tfoot>
+              </table>
+              </div>
+
+
+            </div>
+            <div class="panel-footer">
+              <p> Back </p>
+            </div>
+        </div>
+    </div>
+</div>
