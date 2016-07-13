@@ -5,7 +5,7 @@
           <div class="pannel pannel-body">
             <h2 class="pannel pannel-head">Album</h2>
             <div class="table table-responsive" >
-              <table class="table table-bordered table-striped table-hover" [mfData]="data" #mf="mfDataTable" [mfRowsOnPage]="5">
+              <table class="table table-bordered table-striped table-hover" [mfData]="data" #mf="mfDataTable" [mfRowsOnPage]="6">
                     <tbody>
                       <tr>
                         <span *ngFor="let img of mf.data">
@@ -21,7 +21,7 @@
                   <tfoot>
                   <tr>
                       <td colspan="1">
-                          <mfBootstrapPaginator [rowsOnPageSet]="[5,15,25]"  style="align:right;"></mfBootstrapPaginator>
+                          <mfBootstrapPaginator [rowsOnPageSet]="[6,16,26]"  style="align:right;"></mfBootstrapPaginator>
                       </td>
                   </tr>
                   </tfoot>
