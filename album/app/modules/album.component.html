@@ -9,7 +9,8 @@
                     <tbody>
                       <tr>
                         <span *ngFor="let img of mf.data">
-                          <td *ngIf=checkHash(img.imageAlbum)><!-- This checks the hash of the url of the page, if it matches the name of the album specified in the json then it shows the image -->
+                          <!--<td *ngIf=checkHash(img.imageAlbum)> --><!-- This checks the hash of the url of the page, if it matches the name of the album specified in the json then it shows the image -->
+                          <td>
                             <a href="{{ img.imageUrl }}">
                               <img src="{{ img.imageUrl }}" title="{{ img.imageDescription }}" style="max-width:100%;max-height:100%;padding:2px;">
                             </a>
