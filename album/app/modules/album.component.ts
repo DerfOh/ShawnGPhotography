@@ -32,11 +32,11 @@ export class AlbumComponent {
        console.error(hashValue);
 
        switch(hashValue) {
-            case "album1":
+            case "animals":
                 http.get("data/imageList.json")
                  .subscribe((data)=> {
                      setTimeout(()=> {
-                         this.data = data.json().album1;
+                         this.data = data.json().animals;
                      }, 1000);
                  });
                 break;
