@@ -1,8 +1,8 @@
 import { bootstrap }    from '@angular/platform-browser-dynamic';
 
-import { AppComponent } from './app.component';
+import { AlbumComponent } from './modules/album.component';
 
-bootstrap(AppComponent);
+bootstrap(AlbumComponent);
 
 
 /*

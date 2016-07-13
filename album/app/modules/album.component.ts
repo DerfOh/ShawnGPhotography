@@ -7,12 +7,12 @@ import * as _ from 'lodash';
 
 @Component({
     selector: 'album',
-    templateUrl: 'app/app.component.html',
+    templateUrl: 'app/modules/album.component.html',
     providers: [HTTP_PROVIDERS],
     directives: [DataTableDirectives],
     pipes: [DatePipe]
 })
-export class AppComponent {
+export class AlbumComponent {
 
     private data;
 
