@@ -38,6 +38,22 @@ export class AlbumComponent {
                      }, 1000);
                  });
                 break;
+            case "families":
+                http.get("data/imageList.json")
+                 .subscribe((data)=> {
+                     setTimeout(()=> {
+                         this.data = data.json().families;
+                     }, 1000);
+                 });
+                break;
+            case "portraits":
+                http.get("data/imageList.json")
+                 .subscribe((data)=> {
+                     setTimeout(()=> {
+                         this.data = data.json().portraits;
+                     }, 1000);
+                 });
+                break;
             default:
                 console.error("Album not specified.");
       }

@@ -220,5 +220,103 @@
           "imageUrl": "images/weddings/img (38).jpg",
           "imageDescription": "wedding photo"
         }
+      ],
+    "families":
+      [
+        {
+          "imageUrl": "images/families/img (1).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (2).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (3).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (4).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (5).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (6).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (7).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (8).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (9).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (10).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (11).jpg",
+          "imageDescription": "families"
+        },
+        {
+          "imageUrl": "images/families/img (12).jpg",
+          "imageDescription": "families"
+        }
+      ],
+    "portraits":
+      [
+        {
+          "imageUrl": "images/portraits/img (1).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (2).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (3).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (4).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (5).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (6).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (7).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (8).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (9).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (10).jpg",
+          "imageDescription": "portraits"
+        },
+        {
+          "imageUrl": "images/portraits/img (11).jpg",
+          "imageDescription": "portraits"
+        }
       ]
 }
