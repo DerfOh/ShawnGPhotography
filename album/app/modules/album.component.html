@@ -4,11 +4,11 @@
         <div class="panel panel-default">
 
           <div class="pannel pannel-body">
-            <h2 class="pannel pannel-head">{{ getHash() }}</h2>
+            <h2 class="pannel pannel-head" align="center">{{ getHash() }}</h2>
             <div class="table table-responsive" >
               <table class="table table-bordered table-striped table-hover" [mfData]="data" #mf="mfDataTable" [mfRowsOnPage]="8">
                     <tbody>
-                      <tr>
+                      <tr align="center">
                         <span *ngFor="let img of mf.data">
                           <td>
                             <a href="{{ img.imageUrl }}">
