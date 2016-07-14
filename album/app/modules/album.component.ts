@@ -19,7 +19,7 @@ export class AlbumComponent {
     constructor(private http:Http) {
        var url = window.location.href;
        var hashValue = url.substring(url.indexOf('#')+1);
-       console.error(hashValue);
+       //console.error(hashValue);
 
        switch(hashValue) {
             case "animals":
@@ -57,5 +57,24 @@ export class AlbumComponent {
             default:
                 console.error("Album not specified.");
       }
+    }
+
+
+        //takes in a value and compares it to the url to see if there is a value specified there.
+    public checkHash(x){
+      var url = window.location.href;
+      var hashValue = url.substring(url.indexOf('#')+1);
+
+      if (x == hashValue){
+        return true;
+      }
+      return false;
+    }
+
+    //gets the value in the url after the hash
+    public getHash(x){
+      var url = window.location.href;
+      var hashValue = url.substring(url.indexOf('#')+1);
+      return hashValue;
     }
 }
