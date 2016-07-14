@@ -30,11 +30,11 @@ export class AlbumComponent {
                      }, 1000);
                  });
                 break;
-            case "album2":
+            case "weddings":
                 http.get("data/imageList.json")
                  .subscribe((data)=> {
                      setTimeout(()=> {
-                         this.data = data.json().album2;
+                         this.data = data.json().weddings;
                      }, 1000);
                  });
                 break;
