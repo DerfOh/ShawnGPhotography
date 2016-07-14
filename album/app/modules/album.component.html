@@ -1,3 +1,4 @@
+
 <div class="container">
     <div class="col-xs-12 col-md-offset-0">
         <div class="panel panel-default">
@@ -12,7 +13,7 @@
                           <!--<td *ngIf=checkHash(img.imageAlbum)> --><!-- This checks the hash of the url of the page, if it matches the name of the album specified in the json then it shows the image -->
                           <td>
                             <a href="{{ img.imageUrl }}">
-                              <img src="{{ img.imageUrl }}" title="{{ img.imageDescription }}" style="max-width:300px;max-height:300px;padding:2px;">
+                              <img src="{{ img.imageUrl }}" title="{{ img.imageDescription }}" style="max-width:200px;max-height:200px;padding:2px;" onload=imgLoaded(this)i>
                             </a>
                           </td>
                         </span>
@@ -21,7 +22,7 @@
                   <tfoot>
                   <tr>
                       <td colspan="1">
-                          <mfBootstrapPaginator [rowsOnPageSet]="[6,16,26]"  style="align:right;"></mfBootstrapPaginator>
+                          <mfBootstrapPaginator [rowsOnPageSet]="[4,8,16]"  style="align:right;"></mfBootstrapPaginator>
                       </td>
                   </tr>
                   </tfoot>
