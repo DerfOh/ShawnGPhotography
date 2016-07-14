@@ -66,17 +66,159 @@
           "imageDescription": "animals"
         }
       ],
-  "album2":
+  "weddings":
       [
         {
-          "imageUrl": "images/img (13).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Consequat velit aute non aliquip."
+          "imageUrl": "images/weddings/img (1).jpg",
+          "imageDescription": "wedding photo"
         },
         {
-          "imageUrl": "images/img (14).jpg",
-          "imageAlbum": "Album2",
-          "imageDescription": "Ipsum laboris deserunt proident voluptate."
+          "imageUrl": "images/weddings/img (2).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (3).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (4).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (5).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (6).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (7).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (8).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (9).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (10).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (11).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (12).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (13).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (14).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (15).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (16).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (17).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (18).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (19).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (20).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (21).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (22).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (23).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (24).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (25).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (26).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (27).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (28).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (29).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (30).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (31).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (32).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (33).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (34).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (35).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (36).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (37).jpg",
+          "imageDescription": "wedding photo"
+        },
+        {
+          "imageUrl": "images/weddings/img (38).jpg",
+          "imageDescription": "wedding photo"
         }
       ]
 }
