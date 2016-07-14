@@ -2,79 +2,79 @@
   "animals":
       [
         {
-          "imageUrl": "images/animals/img (1).jpeg",
+          "imageUrl": "images/animals/img (1).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (2).jpeg",
+          "imageUrl": "images/animals/img (2).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (3).jpeg",
+          "imageUrl": "images/animals/img (3).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (4).jpeg",
+          "imageUrl": "images/animals/img (4).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (5).jpeg",
+          "imageUrl": "images/animals/img (5).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (6).jpeg",
+          "imageUrl": "images/animals/img (6).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (7).jpeg",
+          "imageUrl": "images/animals/img (7).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (8).jpeg",
+          "imageUrl": "images/animals/img (8).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (9).jpeg",
+          "imageUrl": "images/animals/img (9).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (10).jpeg",
+          "imageUrl": "images/animals/img (10).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (11).jpeg",
+          "imageUrl": "images/animals/img (11).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (12).jpeg",
+          "imageUrl": "images/animals/img (12).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (13).jpeg",
+          "imageUrl": "images/animals/img (13).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (14).jpeg",
+          "imageUrl": "images/animals/img (14).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (15).jpeg",
+          "imageUrl": "images/animals/img (15).jpg",
           "imageDescription": "animals"
         },
         {
-          "imageUrl": "images/animals/img (16).jpeg",
+          "imageUrl": "images/animals/img (16).jpg",
           "imageDescription": "animals"
         }
       ],
   "album2":
       [
         {
-          "imageUrl": "images/img (13).jpeg",
+          "imageUrl": "images/img (13).jpg",
           "imageAlbum": "Album1",
           "imageDescription": "Consequat velit aute non aliquip."
         },
         {
-          "imageUrl": "images/img (14).jpeg",
+          "imageUrl": "images/img (14).jpg",
           "imageAlbum": "Album2",
           "imageDescription": "Ipsum laboris deserunt proident voluptate."
         }
